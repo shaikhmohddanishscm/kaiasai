@@ -6,7 +6,7 @@
 export const brandConfig = {
   name: 'ikai Asai',
   shortName: 'IA',
-  tagline: 'Your brand tagline here',
+  tagline: 'Where tradition meets contemporary living',
   
   logos: {
     main: '/logos/IA-logo.png',
@@ -27,13 +27,14 @@ export const brandConfig = {
   },
   
   colors: {
-    // Brand color reference: /brand-colors.jpg
-    // Update these values with actual brand colors from the JPG
-    primary: '#1a1a1a',
-    secondary: '#4a4a4a',
-    accent: '#ff6b35',
-    light: '#f5f5f5',
-    dark: '#0a0a0a',
+    // Brand colors from /brand-colors.jpg
+    primary: '#945139',    // Terracotta - main brand color
+    secondary: '#3d2021',  // Dark brown - text/headers
+    accent: '#ef9f59',     // Peach - warm accent
+    light: '#faf8f5',      // Warm off-white - backgrounds
+    dark: '#7f252c',       // Deep maroon - dark accents
+    sage: '#738472',       // Sage green - natural tone
+    teal: '#264b59',       // Teal - cool complement
   },
   
   typography: {

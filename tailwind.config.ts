@@ -9,13 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ikai Asai Brand Colors
+        // ikai Asai Brand Colors - from brand-colors.jpg
         brand: {
-          primary: "#1a1a1a", // Update with actual brand color
-          secondary: "#4a4a4a", // Update with actual brand color
-          accent: "#ff6b35", // Update with actual brand color
-          light: "#f5f5f5",
-          dark: "#0a0a0a",
+          primary: "#945139",    // Terracotta
+          secondary: "#3d2021",  // Dark brown
+          accent: "#ef9f59",     // Peach
+          light: "#faf8f5",      // Warm off-white
+          dark: "#7f252c",       // Deep maroon
+          sage: "#738472",       // Sage green
+          teal: "#264b59",       // Teal
         },
       },
       fontFamily: {

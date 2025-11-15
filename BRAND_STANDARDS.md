@@ -3,12 +3,14 @@
 ## 🎨 Brand Colors
 Reference: `/public/brand-colors.jpg`
 
-**Current colors in use (update with actual brand colors):**
-- Primary: `#1a1a1a`
-- Secondary: `#4a4a4a`
-- Accent: `#ff6b35`
-- Light: `#f5f5f5`
-- Dark: `#0a0a0a`
+**Current colors in use (from brand-colors.jpg):**
+- Primary: `#945139` - Terracotta (main brand color)
+- Secondary: `#3d2021` - Dark brown (text/headers)
+- Accent: `#ef9f59` - Peach (warm accent)
+- Light: `#faf8f5` - Warm off-white (backgrounds)
+- Dark: `#7f252c` - Deep maroon (dark accents)
+- Sage: `#738472` - Sage green (natural tone)
+- Teal: `#264b59` - Teal (cool complement)
 
 ### Usage in Tailwind:
 ```tsx
@@ -120,13 +122,14 @@ brandConfig.fonts.primary
 ## ✅ Brand Standards Checklist
 
 - ✅ All fonts configured (Nunito & Nunito Sans)
-- ✅ Brand colors defined in Tailwind config
+- ✅ Brand colors extracted from brand-colors.jpg and applied
+- ✅ shadcn/ui installed and configured with warm theme
 - ✅ Logo components with all variants
 - ✅ Brand-compliant button components
 - ✅ Brand-compliant heading components
 - ✅ CSS variables for colors
 - ✅ Centralized brand configuration
-- ⚠️ **TODO**: Update brand colors with actual values from brand-colors.jpg
+- ✅ **Demo Site**: One-page site with Hero, About, Crafts, Blog sections
 
 ---
 

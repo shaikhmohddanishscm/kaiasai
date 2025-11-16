@@ -11,7 +11,15 @@ export { Header } from './Header';
 
 // Page Sections
 export { Hero } from './Hero';
+export { HeroWithVideo } from './HeroWithVideo';
 export { AboutSection } from './AboutSection';
 export { FeaturedCrafts } from './FeaturedCrafts';
 export { BlogSection } from './BlogSection';
+export { FeaturesSection } from './FeaturesSection';
+export { CraftsSection } from './CraftsSection';
+export { CategoriesSection } from './CategoriesSection';
+export { VideoShowcaseSection } from './VideoShowcaseSection';
+export { TestimonialsSection } from './TestimonialsSection';
+export { StatsSection } from './StatsSection';
+export { NewsletterSection } from './NewsletterSection';
 export { Footer } from './Footer';

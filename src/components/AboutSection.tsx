@@ -52,14 +52,19 @@ export function AboutSection() {
 
           {/* Craft Regions */}
           <div className="space-y-6">
-            {/* Image */}
-            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden mb-8">
-              <Image
-                src="https://images.unsplash.com/photo-1610832961661-b499ed17bbf7?q=80&w=2070"
-                alt="Indian artisan working on traditional craft"
-                fill
-                className="object-cover"
-              />
+            {/* Video */}
+            <div className="relative rounded-lg overflow-hidden mb-8 shadow-lg border-2 border-brand-primary/20">
+              <video
+                className="w-full h-auto"
+                controls
+                playsInline
+                muted
+                loop
+                preload="metadata"
+              >
+                <source src="/video/80df6667a77d4b76b61ce68da3ad6b60.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
 
             <h3 className="font-nunito font-bold text-xl text-brand-primary mb-8">

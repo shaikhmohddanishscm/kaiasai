@@ -6,6 +6,8 @@ export { BrandHeading } from './BrandHeading';
 // Layout Components
 export { Container } from './Container';
 export { Section } from './Section';
+export { ScrollToTop } from './ScrollToTop';
+export { Header } from './Header';
 
 // Page Sections
 export { Hero } from './Hero';

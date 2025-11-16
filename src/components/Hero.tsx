@@ -16,7 +16,7 @@ export function Hero() {
           className="object-cover opacity-40"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-light/80 to-white/85"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-brand-light/80 to-white/85"></div>
       </div>
 
       <Container size="lg" className="text-center relative z-10">

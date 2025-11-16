@@ -28,13 +28,13 @@ export const brandConfig = {
   
   colors: {
     // Brand colors from /brand-colors.jpg
-    primary: '#945139',    // Terracotta - main brand color
-    secondary: '#3d2021',  // Dark brown - text/headers
-    accent: '#ef9f59',     // Peach - warm accent
-    light: '#faf8f5',      // Warm off-white - backgrounds
-    dark: '#7f252c',       // Deep maroon - dark accents
-    sage: '#738472',       // Sage green - natural tone
-    teal: '#264b59',       // Teal - cool complement
+    primary: '#945139',    // Terracotta - CMYK: 27,77,86,19 | RGB: 148,81,57
+    accent: '#ef9f59',     // Peach - CMYK: 4,43,73,01 | RGB: 239,159,89
+    dark: '#7f252c',       // Deep maroon - CMYK: 31,93,78,35 | RGB: 127,37,44
+    secondary: '#3d2021',  // Dark brown - CMYK: 52,76,65,67 | RGB: 161,32,33
+    sage: '#738472',       // Sage green - CMYK: 57,36,56,10 | RGB: 115,132,114
+    teal: '#264b59',       // Teal - CMYK: 87,60,46,32 | RGB: 38,75,89
+    slate: '#575d68',      // Slate - CMYK: 67,56,45,22 | RGB: 87,93,104
   },
   
   typography: {

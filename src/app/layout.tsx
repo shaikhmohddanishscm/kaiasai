@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { nunito, nunitoSans } from "./fonts";
 import "./globals.css";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "ikai Asai",
@@ -17,7 +19,9 @@ export default function RootLayout({
       <body
         className={`${nunito.variable} ${nunitoSans.variable} antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

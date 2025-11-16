@@ -11,13 +11,14 @@ const config: Config = {
       colors: {
         // ikai Asai Brand Colors - from brand-colors.jpg
         brand: {
-          primary: "#945139",    // Terracotta
-          secondary: "#3d2021",  // Dark brown
-          accent: "#ef9f59",     // Peach
-          light: "#faf8f5",      // Warm off-white
-          dark: "#7f252c",       // Deep maroon
-          sage: "#738472",       // Sage green
-          teal: "#264b59",       // Teal
+          primary: "#945139",    // Terracotta - CMYK: 27,77,86,19
+          accent: "#ef9f59",     // Peach - CMYK: 4,43,73,01
+          dark: "#7f252c",       // Deep maroon - CMYK: 31,93,78,35
+          secondary: "#3d2021",  // Dark brown - CMYK: 52,76,65,67
+          sage: "#738472",       // Sage green - CMYK: 57,36,56,10
+          teal: "#264b59",       // Teal - CMYK: 87,60,46,32
+          slate: "#575d68",      // Slate - CMYK: 67,56,45,22
+          light: "#faf8f5",      // Warm off-white (background)
         },
       },
       fontFamily: {

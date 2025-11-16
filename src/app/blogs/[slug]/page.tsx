@@ -67,8 +67,8 @@ export default async function BlogDetailPage({
       </div>
 
       {/* Article Header */}
-      <Container size="lg" className="py-12">
-        <div className="max-w-4xl mx-auto text-center">
+      <div className="w-full py-12 px-6 md:px-12 lg:px-16">
+        <div className="max-w-[1600px] mx-auto">
           <h1 className="font-nunito font-light text-3xl md:text-4xl lg:text-5xl text-brand-secondary mb-4 leading-tight">
             {blog.title}
           </h1>
@@ -76,15 +76,15 @@ export default async function BlogDetailPage({
             {blog.date} | {blog.author}
           </p>
         </div>
-      </Container>
+      </div>
 
       {/* Article Content */}
-      <Container size="xl" className="pb-20">
-        <div className="max-w-6xl mx-auto">
+      <div className="w-full pb-20 px-6 md:px-12 lg:px-16">
+        <div className="max-w-[1600px] mx-auto">
           {/* Two Column Layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             {/* Main Content Column */}
-            <div className="lg:col-span-7 space-y-6">
+            <div className="lg:col-span-8 space-y-6">
               {formattedContent.slice(0, midPoint).map((section) => {
                 if (section.type === 'heading') {
                   return (
@@ -119,9 +119,9 @@ export default async function BlogDetailPage({
             </div>
 
             {/* Side Image Column */}
-            <div className="lg:col-span-5 space-y-8">
-              <div className="sticky top-8">
-                <div className="relative h-96 w-full overflow-hidden rounded-sm">
+            <div className="lg:col-span-4 space-y-8">
+              <div className="sticky top-24">
+                <div className="relative h-80 w-full overflow-hidden rounded-sm">
                   <Image
                     src={blog.image_url}
                     alt={blog.title}
@@ -151,7 +151,7 @@ export default async function BlogDetailPage({
           ) : null}
 
           {/* Continuation of Content */}
-          <div className="max-w-4xl mx-auto space-y-6 mt-12">
+          <div className="max-w-5xl space-y-6 mt-12">
             {formattedContent.slice(midPoint).map((section) => {
               if (section.type === 'heading') {
                 return (
@@ -195,7 +195,7 @@ export default async function BlogDetailPage({
             </Link>
           </div>
         </div>
-      </Container>
+      </div>
 
       {/* Scroll to Top Button */}
       <ScrollToTop />

@@ -7,7 +7,6 @@ import {
   VideoShowcaseSection,
   BlogSection,
   TestimonialsSection,
-  StatsSection,
   NewsletterSection,
 } from "@/components";
 
@@ -20,7 +19,6 @@ export default function Home() {
       <CategoriesSection />
       <CraftsSection />
       <VideoShowcaseSection />
-      <StatsSection />
       <BlogSection />
       <TestimonialsSection />
       <NewsletterSection />

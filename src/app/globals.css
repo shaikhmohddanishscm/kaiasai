@@ -4,7 +4,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* ikai Asai Brand Styles */
+/* Ikai Asai Brand Styles */
 :root {
   /* Brand Colors - from brand-colors.jpg */
   --brand-primary: #945139;      /* Terracotta - main brand color */

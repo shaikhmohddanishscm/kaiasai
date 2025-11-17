@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ikai Asai Brand Colors - from brand-colors.jpg
+        // Ikai Asai Brand Colors - from brand-colors.jpg
         brand: {
           primary: "#945139",    // Terracotta - CMYK: 27,77,86,19
           accent: "#ef9f59",     // Peach - CMYK: 4,43,73,01

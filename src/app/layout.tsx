@@ -5,8 +5,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "ikai Asai",
-  description: "Official ikai Asai website",
+  title: "Ikai Asai",
+  description: "Official Ikai Asai website",
 };
 
 export default function RootLayout({

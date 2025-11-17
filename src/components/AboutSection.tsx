@@ -31,7 +31,7 @@ export function AboutSection() {
 
             <div className="space-y-4 text-brand-secondary/80 font-nunito leading-relaxed">
               <p className="text-lg">
-                ikai Asai is an artisanal design house rooted in the rich tapestry of Indian craftsmanship.
+                Ikai Asai is an artisanal design house rooted in the rich tapestry of Indian craftsmanship.
                 We work directly with skilled artisans and craft clusters across India, bridging centuries-old
                 traditions with contemporary aesthetics.
               </p>

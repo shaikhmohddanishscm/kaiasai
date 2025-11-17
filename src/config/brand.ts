@@ -1,10 +1,10 @@
 /**
- * ikai Asai Brand Configuration
+ * Ikai Asai Brand Configuration
  * Centralized brand identity settings for consistent branding
  */
 
 export const brandConfig = {
-  name: 'ikai Asai',
+  name: 'Ikai Asai',
   shortName: 'IA',
   tagline: 'Where tradition meets contemporary living',
   

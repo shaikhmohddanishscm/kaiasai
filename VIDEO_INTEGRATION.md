@@ -1,4 +1,4 @@
-# Video Integration Guide - ikai Asai
+# Video Integration Guide - Ikai Asai
 
 ## Video Asset
 **Location**: `/public/video/80df6667a77d4b76b61ce68da3ad6b60.mp4`

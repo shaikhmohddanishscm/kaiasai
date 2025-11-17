@@ -14,7 +14,7 @@ export function NewsletterSection() {
       <Container size="md" className="relative z-10 px-4">
         <div className="text-center">
           <BrandHeading level={2} className="mb-3 sm:mb-4 text-white text-2xl sm:text-3xl md:text-4xl">
-            Stay Connected with ikai Asai
+            Stay Connected with Ikai Asai
           </BrandHeading>
           <p className="font-nunito text-base sm:text-lg mb-6 sm:mb-8 text-white/90 max-w-xl mx-auto">
             Subscribe to our newsletter for exclusive updates on new collections, artisan stories, 

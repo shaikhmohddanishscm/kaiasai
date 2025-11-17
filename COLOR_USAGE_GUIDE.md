@@ -1,4 +1,4 @@
-# ikai Asai Color Usage Guide
+# Ikai Asai Color Usage Guide
 
 ## Brand Color Palette Reference
 

@@ -1,4 +1,4 @@
-# ikai Asai Website Structure
+# Ikai Asai Website Structure
 
 ## Homepage Layout (page.tsx)
 

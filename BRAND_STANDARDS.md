@@ -1,4 +1,4 @@
-# ikai Asai Brand Standards
+# Ikai Asai Brand Standards
 
 ## 🎨 Brand Colors
 Reference: `/public/brand-colors.jpg`
@@ -111,7 +111,7 @@ All brand settings are centralized in `/src/config/brand.ts`:
 ```tsx
 import { brandConfig } from '@/config/brand';
 
-brandConfig.name        // "ikai Asai"
+brandConfig.name        // "Ikai Asai"
 brandConfig.logos.main  // "/logos/IA-logo.png"
 brandConfig.colors.primary
 brandConfig.fonts.primary

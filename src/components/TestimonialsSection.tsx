@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: 'Priya Sharma',
     location: 'Mumbai',
-    text: 'The terracotta dinnerware set from ikai Asai has completely transformed our dining experience. Each piece is a work of art that brings warmth to our table.',
+    text: 'The terracotta dinnerware set from Ikai Asai has completely transformed our dining experience. Each piece is a work of art that brings warmth to our table.',
     rating: 5,
   },
   {
@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: 'Meera Reddy',
     location: 'Bangalore',
-    text: 'As someone who appreciates handcrafted products, ikai Asai never disappoints. The attention to detail and the stories behind each piece make them truly special.',
+    text: 'As someone who appreciates handcrafted products, Ikai Asai never disappoints. The attention to detail and the stories behind each piece make them truly special.',
     rating: 5,
   },
 ];
@@ -31,7 +31,7 @@ export function TestimonialsSection() {
             Stories from Our Community
           </BrandHeading>
           <p className="text-brand-secondary/80 font-nunito text-base sm:text-lg max-w-2xl mx-auto">
-            Discover what our customers are saying about their ikai Asai experience
+            Discover what our customers are saying about their Ikai Asai experience
           </p>
         </div>
 
